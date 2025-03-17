@@ -1,16 +1,11 @@
-.container{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f0f0f0;
 }
-.text{
-    background-color: white;
-    display: flex;
-    
-}
-.connect{
-    height: max-content;
-    width: 140px;
-    background-color: chocolate;
+
+canvas {
+    border: 2px solid black;
 }
